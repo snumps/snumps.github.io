@@ -1,7 +1,6 @@
 #
 # This file contains configuration flags to customize your site
 #
-theme: reverie
 # Name of your site (displayed in the header)
 name: "서울대학교 수학 문제 연구회 : SNUMPS"
 
