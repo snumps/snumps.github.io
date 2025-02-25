@@ -1,12 +1,12 @@
 #
 # This file contains configuration flags to customize your site
 #
-
+theme: reverie
 # Name of your site (displayed in the header)
-name: Reverie
+name: 서울대학교 수학 문제 연구회 : SNUMPS
 
 # Name of the author
-author: Amit Merchant
+author: Inyoung Choi amychoi7@snu.ac.kr
 
 # Short bio or description (displayed in the header)
 description: An elegant Jekyll theme
@@ -55,7 +55,7 @@ enforce_ssl: https://www.amitmerchant.com/reverie
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/reverie"
+# baseurl: "/reverie"
 
 #
 # !! You don't need to change any of the configuration flags below !!
