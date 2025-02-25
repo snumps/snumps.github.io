@@ -2,13 +2,13 @@
 # This file contains configuration flags to customize your site
 #
 # Name of your site (displayed in the header)
-name: "서울대학교 수학 문제 연구회 : SNUMPS"
+name: "SNUMPS"
 
 # Name of the author
 author: Inyoung Choi amychoi7@snu.ac.kr
 
 # Short bio or description (displayed in the header)
-description: An elegant Jekyll theme
+description: "서울대학교 수학 문제 연구회"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/reverie.png
@@ -20,15 +20,15 @@ avatar: /images/reverie.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amit.d.merchant@gmail.com
+  email: officialsnumps@gmail.com
   facebook:
   flickr:
-  github: amitmerchant1990/reverie
-  instagram:
+  github: snumps/snumps
+  instagram: snu_mps
   linkedin: 
   pinterest:
   rss: rss
-  twitter: amit_merchant
+  twitter:
   stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -40,15 +40,15 @@ footer-links:
 disqus: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-43339302-11
+# google_analytics: UA-43339302-11
 
 # For newer "GA4" analytics, use the following instead of the "UA" entry above
 #google_analytics_ga4: G-GABC1DEFG
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.amitmerchant.com/reverie
-enforce_ssl: https://www.amitmerchant.com/reverie
+url: http://snumps.github.io
+enforce_ssl: https://snumps.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
