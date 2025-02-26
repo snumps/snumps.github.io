@@ -1,14 +1,24 @@
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
 body {
-    margin: 0;
-  }
-  h1 {
-    text-align: center;
-  }
-  .container {
-    width: 70%;
-    margin: auto;
-    overflow: hidden;
-  }
+  background: #fff;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #404040;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 18px;
+  height: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
+
   .images {
     width: 100%;
     height: auto;
@@ -20,7 +30,7 @@ body {
   }
   
   @media (min-width: 640px) {
-    .container {
+    .container-gallery {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 30px;
