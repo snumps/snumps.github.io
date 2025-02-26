@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting started with Reverie
+title: SNUMPS : 서울대 수학 문제 연구회
 permalink: /getting-started/
 ---
 
