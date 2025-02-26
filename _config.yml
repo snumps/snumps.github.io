@@ -5,7 +5,8 @@
 name: "SNUMPS"
 
 # Name of the author
-author: Inyoung Choi amychoi7@snu.ac.kr
+author: Inyoung Choi
+email : amychoi7@snu.ac.kr
 
 # Short bio or description (displayed in the header)
 description: "서울대학교 수학 문제 연구회"
@@ -23,7 +24,7 @@ footer-links:
   email: officialsnumps@gmail.com
   facebook:
   flickr:
-  github: snumps
+  github: snumps/snumps.github.io
   instagram: snu_mps
   linkedin: 
   pinterest:
