@@ -29,13 +29,13 @@ SNUMPS는 수학을 좋아하는 사람들이 모여 자유롭게 생각을 나�
 
 ## 안내 사항
 
-[회칙 ]({{site.url}}/rules/)
+[회칙]({{site.url}}/rules/)
 
 ## 동아리 활동
 
 [세미나 및 스터디 자료](https://www.notion.so/14d576d7d67480b8ac3fd36863713e5e?pvs=21)
 
-[창작 문제 모음집](https://www.notion.so/14d576d7d67480d68a6df53025441e34?pvs=21)
+[창작 문제 모음집]({{site.url}}/problems/)
 
 [풀이 모음집](https://www.notion.so/163576d7d67480d198aade3fba2b77ae?pvs=21)
 
