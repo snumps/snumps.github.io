@@ -2,28 +2,49 @@
 layout: page
 title: About
 permalink: /about/
+
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+# 소개
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+SNUMPS는 수학을 좋아하는 사람들이 모여 자유롭게 생각을 나누고, 함께 배우는 모임입니다. 단순히 문제를 풀고 끝나는 것이 아니라, 직접 문제를 만들어보거나 풀이 과정을 공유하면서 새로운 시각을 발견하는 활동을 합니다. 이를 통해 수학의 다양한 주제를 탐구하며 서로 배우고 성장하는 것을 목표로 하는 동아리입니다.
 
-## Features
+# 활동들
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+- 수학과 관련된 대면 및 비대면 토론
+- 형식을 갖춘 수학 문제 창작 및 공유
+- 문제 해결에 대한 풀이와 아이디어 공유 및 정리
+- 수학의 다양한 주제에 대한 세미나
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+## **HOW TO JOIN**
+
+[구글 폼](https://tinyurl.com/SNUMPS)을 작성하신 후, 연락을 받고 동아리에 가입하시면 됩니다. 혹은,
+
+회장 최인영 : 010 4893 4282
+
+부회장 박하늘 : 010 7207 2710
+
+여기로 연락주세요 :)
+
+[인스타그램](https://www.instagram.com/snu_mps)
+
+## 안내 사항
+
+[회칙 ](https://www.notion.so/14d576d7d67480bda959d21de0a6f720?pvs=21)
+
+## 동아리 활동
+
+[세미나 및 스터디 자료](https://www.notion.so/14d576d7d67480b8ac3fd36863713e5e?pvs=21)
+
+[창작 문제 모음집](https://www.notion.so/14d576d7d67480d68a6df53025441e34?pvs=21)
+
+[풀이 모음집](https://www.notion.so/163576d7d67480d198aade3fba2b77ae?pvs=21)
+
+## 자료실
+
+[갤러리]()
+
+[동아리 문서]()
+
+## 전체 회원
+// TODO
