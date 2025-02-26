@@ -4,6 +4,8 @@ permalink: /images/
 title: 갤러리
 ---
 
+<p> hi </p>
+<!-- 
 <h1>HeeYouNi Gallery</h1>
   <div class="container">
     <div class="images">
@@ -24,4 +26,4 @@ title: 갤러리
         <img src="{{ site.baseurl }}/images/galaxy.jpg">
       </div>
     </div>
-</div>
+</div> -->
