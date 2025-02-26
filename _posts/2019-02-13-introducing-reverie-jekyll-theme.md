@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Reverie - A ridiculously elegant Jekyll theme
 categories: [Miscellaneous, Jekyll]
-author: [Reverie, Inyoung Choi]
+author: Inyoung Choi
 email: amychoi7@snu.ac.kr
 ---
 
