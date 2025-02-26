@@ -100,3 +100,9 @@ exclude:
   - README.md
   - CNAME
 
+
+# Add a new collection for members
+collections:
+  members:
+    output: true  # Enables individual pages for each member
+    permalink: /members/:name/

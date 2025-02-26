@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  {% if page.email %}<h1><a href="mailto:{{page.email}}" target="_blank">{{ page.name }}</a></h1>
+  {% else %}<h1><a>{{ page.name }}</a></h1>
+  {% endif %}
+
+
+  <!-- Initialize variables for semester tracking -->
+  {% assign active_semesters = "" %}
+  {% assign post_count = 0 %}
+  
+  {% assign status = "예비회원" %} <!-- Default to Fresh -->
+  {% assign stat-emoji = "&#129364;" %}
+
+  <!-- Loop through the posts to calculate the status -->
+  {% assign member_posts = site.posts | where: "member", page.name %}
+  
+  {% for post in member_posts %}
+    {% for semester in post.semester %}
+      <!-- Count posts for each semester -->
+      {% assign post_count = post_count | plus: 1 %}
+
+      <!-- If there are more than two posts in the same semester, consider it "active" -->
+      {% if post_count >= 2 %}
+        {% unless active_semesters contains semester %}
+          {% assign active_semesters = active_semesters | append: semester | append: "," %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+  <!-- Determine status based on post count and semester distribution -->
+  {% assign active_semester_count = active_semesters | split: "," | size %}
+  
+  {% if member_posts.size == 0 %}
+    {% assign status = "예비회원" %}
+    {% assign stat-emoji="&#129364;" %}
+  {% elsif member_posts.size > 0 and active_semester_count == 0 %}
+    {% assign status = "신입회원" %}
+    {% assign stat-emoji="&#127807;" %}
+  {% elsif active_semester_count == 1 %}
+    {% assign status = "활동회원" %}
+    {% assign stat-emoji="&#127795;" %}
+  {% elsif active_semester_count > 1 %}
+    {% assign status = "명예회원" %}
+    {% assign stat-emoji="&#127822;" %}
+  {% endif %}
+
+
+  <div>
+    <div class="rank-tags">
+      {% assign ranks = page.rank %}
+      {% for rank in ranks %}
+        <a>{{rank}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>   
+
+
+
+    <div class="semester-tags">
+      {% assign semesters = page.semester %}
+      {% for semester in semesters %}
+        <a href="{{site.baseurl}}/totmembers/#{{totmembers|slugize}}">{{semester}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
+
+    <div class="stat-tags">
+      <a>{{stat-emoji}}{{status}}</a>
+    </div> 
+    
+  </div>
+    
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="activity">
+    <h4>
+    <details>
+    <summary>활동 내역</summary>
+    <ul>
+    {% for post in member_posts %}
+      <li><b><a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.title and post.title != "" %}
+        {{post.title}}
+      {% else %}
+        {{post.excerpt | strip_html}}
+      {%endif%}</a></b></li>
+    {% endfor %}
+    </ul>
+    </details>
+  </h4>
+  </div>
+
+
+</article>
