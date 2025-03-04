@@ -37,8 +37,7 @@ SNUMPS는 수학을 좋아하는 사람들이 모여 자유롭게 생각을 나�
 
 [창작 문제 모음집]({{site.url}}/problems/)
 
-[풀이 모음집](https://www.notion.so/163576d7d67480d198aade3fba2b77ae?pvs=21)
-
+[풀이 모음집]({{site.url}}/solutions/)
 ## 자료실
 
 [갤러리]({{site.url}}/images/)
